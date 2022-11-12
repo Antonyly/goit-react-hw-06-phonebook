@@ -5,11 +5,12 @@
     border-radius: 25px;
     background-color: #FDF4E3;
 }
+ */
 
 
-
-.list {
+/* .list {
     display: flex;
-    justify-content: space-between;
-    padding: 0;
-} */
+    flex-direction: column;
+    /* justify-content: space-around; */
+
+    /* padding: 0; */

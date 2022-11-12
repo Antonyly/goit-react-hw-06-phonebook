@@ -1,6 +1,9 @@
 .button {
-    margin-left: 20px;
-    /* margin-top: 10px; */
+    display: block;
+    margin: 0;
+    padding: 0;
+    /* margin-left: auto;
+    margin-top: 10px; */
 
     border: none;
     border-radius: 50px;
@@ -16,7 +19,7 @@ height: 50px;
     border: 1px solid rgb(0, 0, 0);
     background-color: #fff;
     color: rgb(0, 0, 0);
-    width: 120px;
+    /* width: 105px; */
     /* margin-left: 30px; */
 }
 
@@ -28,7 +31,10 @@ ul {
 }
 li{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+}
+.type{
+    margin-right: 10px;
 }

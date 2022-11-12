@@ -5,7 +5,7 @@ import s from './contactItem.module.css';
 export const ContactItem = ({ name, number, onClick }) => {
   return (
     <li className={s.item}>
-        {name} : {number}
+        <p className={s.type}>{name} : {number}</p>
       {
           <button
             className={s.button}
