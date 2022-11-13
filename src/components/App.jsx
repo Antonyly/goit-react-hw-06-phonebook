@@ -22,8 +22,8 @@ export const App = () => {
   function addContact(data) {
 
     const searchName = contacts
-      .map((contact) => contact.name)
-      .includes(data.name);
+      .map((contact) => contact.name.toLowerCase())
+      .includes(data.name.toLowerCase());
 
      if (searchName) {
       return alert(`${data.name} is already in contacts.`);
@@ -41,7 +41,7 @@ export const App = () => {
         dispatch(remove(id));
     }
 
-  const changeFilter = ({ target }) => dispatch(setFilter(target.value));
+  const changeFilter = ({target}) => dispatch(setFilter(target.value));
 
   const getVisibleContacts = () => {
 
