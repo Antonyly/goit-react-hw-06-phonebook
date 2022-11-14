@@ -1,16 +1,35 @@
-/* .container {
+.button {
+    /* display: block; */
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 20px;
 
-    padding: 50px 30px;
-    margin: 50px auto;
-    border-radius: 25px;
-    background-color: #FDF4E3;
+
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgb(136, 136, 136);
+    background-color: rgb(15, 15, 15);
+    color: rgb(192, 192, 192);
+    transition: all 250ms linear;
 }
- */
 
+.button:hover,
+.button:focus {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    /* width: 105px; */
+    /* margin-left: 30px; */
+}
 
-/* .list {
+ul {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-
-    /* padding: 0; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* width: 500px; */
+}
