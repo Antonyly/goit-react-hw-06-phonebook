@@ -35,6 +35,14 @@ label {
     border-radius: 10px;
     border: 2px solid rgba(34, 34, 34, 0.5);
     margin-bottom: 30px;
+    transition: all 250ms linear;
+}
+.btn:hover,
+.btn:focus{
+    background-color: rgb(34, 34, 34);
+    border: 2px solid rgba(58, 28, 0, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+
 }
 .title{
     display: flex;
